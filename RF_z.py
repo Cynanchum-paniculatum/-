@@ -109,7 +109,7 @@ plt.show()
 
 # 预测结果可视化 (展示前100个样本)
 plt.figure()
-plt.plot(np.arange(100), y_test[:100], "go-", label="True value")
+plt.plot(np.arange(100), y_test[:100], "go--", label="True value")
 plt.plot(np.arange(100), predictions[:100], "ro-", label="Predicted value")
 plt.title("True vs Predicted Labels (First 100 Samples)")
 plt.legend(loc="best")
